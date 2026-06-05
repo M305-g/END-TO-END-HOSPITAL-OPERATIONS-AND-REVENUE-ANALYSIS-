@@ -1,0 +1,2 @@
+# END-TO-END-HOSPITAL-OPERATIONS-AND-REVENUE-ANALYSIS-
+This project analyzes hospital operations, physician workload, treatment utilization, appointment performance and revenue collection using Excel, SQL and Tableau. The analysis identifies high demand medical specialties, evaluates revenue generating services and examines operational challenges such as appointment completion and payment collection.
