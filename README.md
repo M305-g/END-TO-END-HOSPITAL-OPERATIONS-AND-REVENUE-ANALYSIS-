@@ -85,15 +85,7 @@ Treatment Date,
 Bill ID,
 Amount,
 Payment Method,
-Payment Status,
-
-**Tools Used**
-
-Excel (Data Quality Checks)
-
-SQL (Data Cleaning and Analysis)
-
-Tableau (Dashboard Development)
+Payment Status
 
 **Data Preparation**
 
@@ -179,6 +171,10 @@ Appointment Status Distribution
 
 Appointments by Hospital Branch
 
+**Business Value**
+
+The dashboard helps hospital management, operations teams, human resources, and finance departments identify high-demand specialties, monitor physician workload, improve appointment management, optimize resource allocation, and strengthen revenue collection performance through data-driven decision-making.
+
 **Key Insight 1:**
 
 Pediatrics Has the Highest Patient Demand
@@ -195,14 +191,16 @@ Broader patient population compared to specialized departments.
 
 **Human Resources Department**
 
-Assess whether current pediatric staffing levels are sufficient.
+More  paediatric staff is needed. Not only paediatrician but paediactric nurses, medical doctors and assistances who will work in paediatric department also highly should be hired.
 
-**Operations Department**
+**Operations and Hospital Management Department**
+More staff should be assigned in this department. Followup in immunizations and vacinations can be done by nurses, Many paediatric diseases can be attended by medical doctors and only few complicated can be attended by paediatricians.This could even reduce waiting time in paediatric department.
 
-Monitor waiting times and appointment availability in Pediatrics.
 
 **Key Insight 2:** 
+
 Dermatology and Pediatrics Carry the Highest Physician Workload
+
 Evidence
 
 Several physicians from these specialties recorded the highest appointment volumes.
@@ -219,42 +217,39 @@ Workload concentration among a small group of physicians.
 
 **Human Resources Department**
 
-Evaluate physician-to-patient ratios.
+Other dermatologist and pediadtrician should be hired in order to counterbalance between patients concentration and physicians, this will reduce waiting time, postponed appointments and long working hours for physician. 
 
 **Hospital Management**
 
-Review workload distribution across specialties.
+More staff should be assigned in this department. Followup in immunizations and vacinations can be done by nurses, Many paediatric diseases can be attended by medical doctors and only few complicated can be attended by paediatricians.
 
 **Key Insight 3:**
 
 Chemotherapy and MRI Generate the Highest Treatment Revenue
+
 Evidence
 
 Chemotherapy contributed 11.6% of revenue.
 
-MRI contributed 10.5% of revenue.
+MRI contributed 10.5% of revenue while x rays, physiothapy  and electrocardiogram which are routine investigations produce lower percentage revenue. 
 
 **Possible Causes**
-
-Specialized services.
-
-Higher resource requirements.
 
 Higher cost per treatment.
 
 **Recommended Action**
 
-**Operations Department**
-
-Ensure efficient utilization of oncology and imaging resources.
+**Human Resource Department**
+Other hospital physician such as cardiologist and orthropaedics should be hired, this will increase patients who attend to hospital cadio and orthropedics consultations,physiotherapy sessions and x rays with electrocadiogram will be routined done
 
 **Hospital Management**
 
-Continue supporting high-value services.
+Prepare a budget for cardiology and orthropedics departments construction with more electrocardiogram, x ray and ECHO machines 
 
 **Key Insight 4:**
 
 Appointment Completion Rate Is Low
+
 Evidence
 
 Completed appointments: 23%
@@ -265,23 +260,25 @@ Cancelled: 25.5%
 
 **Possible Causes**
 
-High no-show rates.
+High working load by physicians.
 
-Appointment scheduling challenges.
+Long waiting hours.
 
 Patient engagement issues.
 
 **Recommended Action**
 
-Operations Department
+**Human resource  Department**
 
-Implement appointment reminder systems.
+More clinical staff are needed especially in departmentsn high number of patients.
 
-Review scheduling processes.
+**Hospital Management**
+Hospital should create other door for those clinicians who need volunteer with qualifications to fill gaps of physician  especially in departments with higher number of patients.
 
 **Key Insight 5:**
 
 Revenue Collection Performance Is Weak
+
 Evidence
 
 Paid: 32%
@@ -333,70 +330,6 @@ Monitor pending and failed payments.
 Prioritize resource allocation to high-demand and high-revenue services.
 
 Monitor operational and financial performance using KPIs.
-
-**Dashboard Preview**
-
-The Tableau dashboard provides an interactive view of hospital performance across four key analytical areas: Appointment Analytics, Treatment Analytics, Revenue Analytics, and Doctor Analytics. The dashboard enables stakeholders to monitor operational efficiency, service utilization, physician workload, and financial performance through dynamic visualizations and KPI tracking.
-
-**Appointment Analytics**
-
-Total Appointments
-
-Appointment Completion Rate
-
-No-Show Rate
-
-Cancellation Rate
-
-Appointment Distribution by Status
-
-Appointment Volume by Hospital Branch
-
-Appointment Trends Over Time
-
-**Treatment Analytics**
-
-Total Treatments Performed
-
-Treatment Utilization Rate
-
-Most Frequently Performed Treatments
-
-Treatment Distribution by Type
-
-Treatment Trends Over Time
-
-**Revenue Analytics**
-
-Total Revenue Generated
-
-Revenue by Specialization
-
-Revenue by Treatment Type
-
-Payment Status Distribution
-
-Revenue Collection Performance
-
-Paid, Pending, and Failed Payment Analysis
-
-**Doctor Analytics**
-
-Total Doctors
-
-Physician Workload Analysis
-
-Appointments by Doctor
-
-Workload Distribution by Specialization
-
-Top Performing Physicians
-
-Doctor Distribution Across Hospital Branches
-
-**Business Value**
-
-The dashboard helps hospital management, operations teams, human resources, and finance departments identify high-demand specialties, monitor physician workload, improve appointment management, optimize resource allocation, and strengthen revenue collection performance through data-driven decision-making.
 
 **Conclusion**
 
