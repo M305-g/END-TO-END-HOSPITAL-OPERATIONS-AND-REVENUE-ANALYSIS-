@@ -231,7 +231,7 @@ Evidence
 
 Chemotherapy contributed 11.6% of revenue.
 
-MRI contributed 10.5% of revenue while x rays, physiothapy  and electrocardiogram which are routine investigations produce lower percentage revenue. 
+MRI contributed 10.5% of revenue while x rays, physiotherapy  and electrocardiogram which are routine investigations produce lower percentage revenue. 
 
 **Possible Causes**
 
