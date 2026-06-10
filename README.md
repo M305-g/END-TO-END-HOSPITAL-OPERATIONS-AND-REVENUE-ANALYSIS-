@@ -303,6 +303,72 @@ Investigate causes of pending and failed payments.
 
 Strengthen billing follow-up procedures.
 
+**Key Insight**
+
+High‑cost treatments drive average cost — advanced procedures such as MRI and Chemotherapy have substantially higher average costs than routine services like X‑ray, Physiotherapy, and ECG.
+
+**Possible Causes**
+
+Intrinsic service complexity — MRI and Chemotherapy require specialized equipment, consumables, and highly trained staff, driving higher per‑case costs.
+
+Treatment duration and intensity — complex therapies often involve multiple sessions, longer facility use, or inpatient stays, increasing total cost per episode.
+
+Case severity mix — higher average costs may reflect a concentration of severe or complicated cases within certain treatment types.
+
+Billing granularity differences — some high‑cost records may represent bundled episodes (multiple procedures billed together) while others are single‑procedure charges.
+
+Operational inefficiencies or utilization gaps — underused expensive equipment or suboptimal scheduling can raise per‑case costs for advanced diagnostics and therapies.
+
+**Operational Actions**
+
+Optimize scheduling and throughput for MRI and Chemotherapy (block scheduling, extended hours, dedicated clinics) to increase utilization and lower per‑case fixed costs.
+
+Introduce bundled pricing or care pathways for repeat therapies (e.g., chemotherapy cycles) to stabilize revenue and simplify billing.
+
+Implement approval controls for very high‑cost cases to catch billing errors and ensure clinical justification.
+
+**Clinical and resource planning**
+
+Allocate specialized staff and equipment based on demand forecasts per treatment tier; consider cross‑training to reduce bottlenecks.
+
+Create dedicated follow‑up or nurse‑led clinics for routine care to free specialist time for complex treatments.
+
+**Key insights**
+
+Central branch is the busiest. It receives the highest count of appointments and hosts most top-performing doctors.
+
+Uneven load across branches. Eastside and Westside have noticeably fewer appointments; this suggests under‑utilized capacity or patient preference for Central.
+
+Concentration risk. A small number of branches (primarily Central) account for a large share of appointments, increasing vulnerability to local disruptions.
+
+Potential access or referral patterns. Patients may be routed or self‑selecting Central for certain services, creating branch‑level specialization.
+
+**Possible causes**
+
+Service mix and specialization: Central may host advanced diagnostics or specialty clinics that attract more referrals.
+
+Resource and capacity differences: Central might have more doctors, equipment, or appointment slots, making it the default choice.
+
+Referral networks and patient preference: Primary care or referring physicians may preferentially send patients to Central.
+
+Operational constraints at smaller branches: Limited hours, fewer specialists, or less marketing can reduce patient flow to Eastside/Westside.
+
+**Recommendations**
+
+**Operational**
+
+Rebalance capacity: Pilot moving some specialty clinics or additional appointment slots to Eastside/Westside to test demand elasticity.
+
+Decentralize high‑volume services: Where clinically safe, offer follow‑ups, routine diagnostics, or nurse‑led clinics at smaller branches.
+
+Referral management: Work with referring providers to distribute referrals across branches based on capacity and patient convenience.
+
+**Staffing & scheduling**
+
+Redistribute rostering: Rotate senior clinicians across branches to even out experience and reduce single‑branch dependency.
+
+Use telemedicine: Offer virtual consults from Central specialists to patients at smaller branches to reduce travel and central congestion.
+
 **Strategic Recommendation**
 
 **Human Resources Department**
