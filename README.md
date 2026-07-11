@@ -2,14 +2,25 @@
 
 This project analyzes hospital operations, physician workload, treatment utilization, appointment performance and revenue collection using Excel, SQL and Tableau. The analysis identifies high demand medical specialties, evaluates revenue generating services and examines operational challenges such as appointment completion and payment collection.
 
-
 **Executive Summary**
 
 This project analyzed hospital operations, physician workload, treatment utilization, appointment performance, and revenue collection using Excel, SQL and Tableau. The analysis identified Pediatrics and Dermatology as the highest-demand specialties, contributing significantly to both patient volume and revenue generation. Chemotherapy and MRI emerged as the leading revenue-generating treatment services. The findings also revealed workload concentration among a small group of physicians, low appointment completion rates, and a high proportion of pending and failed payments. Based on these insights, recommendations were developed to support workforce planning, operational efficiency, and financial performance improvement.
 
+**Hospitals lose millions each year to inefficient resource allocation and billing failures. This project demonstrates how data analytics can uncover hidden inefficiencies, optimize physician workloads, and improve revenue collection.**
+
 **Business Problem**
 
 Hospitals need to efficiently manage patient demand, physician workload, appointment performance, and revenue collection. Without data-driven insights, decision-makers may struggle to allocate resources effectively and optimize operational performance.
+
+**Business Impact**
+
+**Operational Efficiency:** Identified that Pediatrics and Dermatology face the highest demand → recommendation to expand staffing and optimize scheduling.
+
+**Revenue Growth:** Chemotherapy and MRI emerged as top revenue drivers → dashboards help management prioritize profitable services.
+
+**Risk Mitigation:** Detected 33% payment failures and 77% appointment drop‑offs → actionable insights to strengthen billing workflows and reduce no‑shows.
+
+**Decision Support:** Delivered interactive Tableau dashboards that allow executives to monitor KPIs in real time,enabling faster ,data diven decisions.
 
 **Project Objectives**
 
@@ -27,19 +38,14 @@ Assess appointment performance and payment collection effectiveness.
 
 **Key Business Questions**
 
-1.
-
 Which medical specialties and treatment types have the highest patient demand?
 
-2.
-
 What are the major contributors to hospital revenue, and how does payment status affect revenue collection?
-
-3.
 
 How are appointments and physician workloads distributed across the hospital network?
 
 **Dataset Information
+
 Source**
 
 
@@ -188,15 +194,9 @@ High demand for child healthcare services.
 Frequent follow-up visits and routine checkups.
 Broader patient population compared to specialized departments.
 
-**Recommended Action**
+**Recommendation**
 
-**Human Resources Department**
-
-More  paediatric staff is needed. Not only paediatrician but paediactric nurses, medical doctors and assistances who will work in paediatric department also highly should be hired.
-
-**Operations and Hospital Management Department**
-More staff should be assigned in this department. Followup in immunizations and vacinations can be done by nurses, Many paediatric diseases can be attended by medical doctors and only few complicated can be attended by paediatricians.This could even reduce waiting time in paediatric department.
-
+Strengthen the Pediatrics Department by increasing staffing capacity through recruitment of pediatricians, pediatric nurses, medical doctors, and clinical support staff. Optimize task allocation by allowing nurses to manage routine services such as immunization and vaccination, while medical doctors handle uncomplicated pediatric cases and pediatricians focus on complex conditions. This multidisciplinary approach can improve service delivery, reduce workload, and minimize patient waiting times.
 
 **Key Insight 2:** 
 
@@ -214,15 +214,9 @@ Frequent follow-up consultations.
 
 Workload concentration among a small group of physicians.
 
-**Recommended Action**
+**Recommendation**
 
-**Human Resources Department**
-
-Other dermatologist and pediadtrician should be hired in order to counterbalance between patients concentration and physicians, this will reduce waiting time, postponed appointments and long working hours for physician. 
-
-**Hospital Management**
-
-More staff should be assigned in this department. Followup in immunizations and vacinations can be done by nurses, Many paediatric diseases can be attended by medical doctors and only few complicated can be attended by paediatricians.
+Increase specialist staffing capacity by recruiting additional dermatologists and pediatricians to better balance patient demand with physician availability. This will help reduce patient waiting times, minimize postponed appointments, and prevent excessive physician workload. In addition, optimize workforce allocation by assigning routine services such as immunization and vaccination follow-up to nurses, while medical doctors manage uncomplicated pediatric cases and pediatricians focus on complex conditions. This multidisciplinary approach will improve efficiency, enhance patient care delivery, and reduce pressure on specialist services.
 
 **Key Insight 3:**
 
@@ -238,15 +232,12 @@ MRI contributed 10.5% of revenue while x rays, physiotherapy  and electrocardiog
 
 Higher cost per treatment.
 
-**Recommended Action**
+**Recommendation**
 
-**Human Resource Department**
-Other hospital physician such as cardiologist and orthropaedics should be hired, this will increase patients who attend to hospital cadio and orthropedics consultations,physiotherapy sessions and x rays with electrocadiogram will be routined done
+Expand hospital specialist capacity by recruiting additional cardiologists and orthopedic physicians to improve access to specialized care. Increasing specialist availability will support higher patient attendance for cardiology and orthopedic consultations, physiotherapy services, diagnostic imaging, electrocardiograms (ECG), and other related investigations.
 
-**Hospital Management**
-
-Prepare a budget for cardiology and orthropedics departments construction with more electrocardiogram, x ray and ECHO machines 
-
+Develop a dedicated budget for expanding cardiology and orthopedic services, including department infrastructure development and investment in essential diagnostic equipment such as ECG machines, X-ray systems, and echocardiography (ECHO) machines. These improvements will enhance diagnostic capacity, reduce service delays, and improve the quality and efficiency of patient care.
+ 
 **Key Insight 4:**
 
 Appointment Completion Rate Is Low
@@ -267,14 +258,11 @@ Long waiting hours.
 
 Patient engagement issues.
 
-**Recommended Action**
+**Recommendation**
 
-**Human resource  Department**
+Increase clinical staffing capacity, particularly in departments experiencing high patient volumes, to improve patient flow, reduce workload pressure, and maintain quality of care.
 
-More clinical staff are needed especially in departmentsn high number of patients.
-
-**Hospital Management**
-Hospital should create other door for those clinicians who need volunteer with qualifications to fill gaps of physician  especially in departments with higher number of patients.
+Establish a structured volunteer program that allows qualified healthcare professionals to support hospital services where staffing gaps exist. This approach can provide additional workforce support while ensuring that all volunteers meet required professional qualifications and work under appropriate supervision.
 
 **Key Insight 5:**
 
@@ -296,13 +284,9 @@ Billing workflow inefficiencies.
 
 Claim management challenges.
 
-**Recommended Action**
+**Recommendation**
 
-**Finance Department**
-
-Investigate causes of pending and failed payments.
-
-Strengthen billing follow-up procedures.
+Investigate the underlying causes of pending and failed payments by reviewing billing processes, documentation accuracy, and payment workflows. Strengthen billing follow-up procedures through timely claim monitoring, improved communication with payers, and proactive resolution of payment delays to enhance revenue cycle efficiency.
 
 **Key Insight**
 
@@ -320,19 +304,12 @@ Billing granularity differences — some high‑cost records may represent bundl
 
 Operational inefficiencies or utilization gaps — underused expensive equipment or suboptimal scheduling can raise per‑case costs for advanced diagnostics and therapies.
 
-**Operational Actions**
+**Recommendations**
 
-Optimize scheduling and throughput for MRI and Chemotherapy (block scheduling, extended hours, dedicated clinics) to increase utilization and lower per‑case fixed costs.
+Optimize MRI and chemotherapy service delivery through improved scheduling strategies, including block scheduling, extended operating hours, and dedicated clinics, to increase equipment utilization and reduce cost per case. Introduce bundled pricing or standardized care pathways for repeat treatments, such as chemotherapy cycles, to improve revenue predictability and simplify billing processes.
 
-Introduce bundled pricing or care pathways for repeat therapies (e.g., chemotherapy cycles) to stabilize revenue and simplify billing.
+Implement review controls for high-cost cases to ensure accurate billing, appropriate clinical justification, and effective cost management. Allocate specialized staff and equipment based on projected service demand, while promoting cross-training to reduce operational bottlenecks. Establish dedicated follow-up and nurse-led clinics for routine care to improve patient flow and allow specialists to focus on complex cases.
 
-Implement approval controls for very high‑cost cases to catch billing errors and ensure clinical justification.
-
-**Clinical and resource planning**
-
-Allocate specialized staff and equipment based on demand forecasts per treatment tier; consider cross‑training to reduce bottlenecks.
-
-Create dedicated follow‑up or nurse‑led clinics for routine care to free specialist time for complex treatments.
 
 **Key insights**
 
@@ -356,47 +333,23 @@ Operational constraints at smaller branches: Limited hours, fewer specialists, o
 
 **Recommendations**
 
-**Operational**
+Improve service capacity and patient access by redistributing selected specialty clinics and additional appointment slots to Eastside and Westside branches based on demand patterns. Expand decentralized healthcare services by providing suitable follow-up visits, routine diagnostics, and nurse-led clinics at smaller branches where clinically appropriate.
 
-Rebalance capacity: Pilot moving some specialty clinics or additional appointment slots to Eastside/Westside to test demand elasticity.
-
-Decentralize high‑volume services: Where clinically safe, offer follow‑ups, routine diagnostics, or nurse‑led clinics at smaller branches.
-
-Referral management: Work with referring providers to distribute referrals across branches based on capacity and patient convenience.
-
-**Staffing & scheduling**
-
-Redistribute rostering: Rotate senior clinicians across branches to even out experience and reduce single‑branch dependency.
-
-Use telemedicine: Offer virtual consults from Central specialists to patients at smaller branches to reduce travel and central congestion.
+Strengthen referral management by directing patients to facilities with available capacity while considering patient convenience. Optimize workforce distribution by rotating experienced clinicians across branches and using telemedicine to connect specialists from Central facilities with patients at smaller branches, reducing travel burden and congestion at high-demand locations.
 
 **Strategic Recommendation**
 
-**Human Resources Department**
+**Human Resources**
+Assess staffing requirements in high-demand specialties, particularly Pediatrics and Dermatology, and monitor physician workload distribution to ensure balanced staffing and efficient service delivery.
 
-Assess staffing requirements in Pediatrics and Dermatology.
+**Operations**
+Optimize appointment scheduling processes, reduce no-show and cancellation rates, and continuously monitor service capacity in high-demand departments to improve patient flow and reduce waiting times.
 
-Monitor physician workload distribution.
-
-**Operations Department**
-
-Improve appointment scheduling processes.
-
-Reduce no-show and cancellation rates.
-
-Monitor service capacity in high-demand specialties.
-
-**Finance Department**
-
-Improve payment collection processes.
-
-Monitor pending and failed payments.
+**Finance**
+Strengthen payment collection processes by monitoring pending and failed payments, identifying causes of payment delays, and improving revenue cycle efficiency.
 
 **Hospital Management**
-
-Prioritize resource allocation to high-demand and high-revenue services.
-
-Monitor operational and financial performance using KPIs.
+Prioritize resource allocation toward high-demand and high-revenue services while using key performance indicators (KPIs) to monitor operational efficiency, financial performance, and overall service quality.
 
 **Conclusion**
 
