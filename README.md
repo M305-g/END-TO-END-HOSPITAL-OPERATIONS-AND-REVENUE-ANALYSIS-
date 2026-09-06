@@ -1,38 +1,34 @@
-# END-TO-END-HOSPITAL-OPERATIONS-AND-REVENUE-ANALYSIS
+**End-to-End Hospital Operations and Revenue Analysis**
 
-This project analyzes hospital operations, physician workload, treatment utilization, appointment performance and revenue collection using Excel, SQL and Tableau. The analysis identifies high demand medical specialties, evaluates revenue generating services and examines operational challenges such as appointment completion and payment collection.
+I analyzed hospital operations, physician workload, treatment utilization, appointment performance, and revenue collection using Excel, SQL, and Tableau — to help hospital leadership see where patient demand, staffing, and billing processes were creating operational and financial risk. 
+
+Hospitals lose real money every year to inefficient resource allocation and billing failures, and this project shows how the underlying data can surface those problems before they compound.
 
 **Executive Summary**
 
-This project analyzed hospital operations, physician workload, treatment utilization, appointment performance, and revenue collection using Excel, SQL and Tableau. The analysis identified Pediatrics and Dermatology as the highest-demand specialties, contributing significantly to both patient volume and revenue generation. Chemotherapy and MRI emerged as the leading revenue-generating treatment services. The findings also revealed workload concentration among a small group of physicians, low appointment completion rates, and a high proportion of pending and failed payments. Based on these insights, recommendations were developed to support workforce planning, operational efficiency, and financial performance improvement.
+This analysis identified Pediatrics and Dermatology as the hospital's highest-demand specialties, contributing significantly to both patient volume and physician workload. Chemotherapy and MRI emerged as the leading revenue-generating treatment services.
 
-**Hospitals lose millions each year to inefficient resource allocation and billing failures. This project demonstrates how data analytics can uncover hidden inefficiencies, optimize physician workloads, and improve revenue collection.**
+The data also revealed workload concentrated among a small group of physicians, a low appointment completion rate, and a high proportion of pending and failed payments. Based on these findings, I developed recommendations to support workforce planning, operational efficiency, and financial performance improvement.
 
 **Business Problem**
 
-Hospitals need to efficiently manage patient demand, physician workload, appointment performance, and revenue collection. Without data-driven insights, decision-makers may struggle to allocate resources effectively and optimize operational performance.
+Hospitals need to manage patient demand, physician workload, appointment performance, and revenue collection efficiently. Without data-driven insight into these areas, decision-makers struggle to allocate resources effectively and optimize operational performance.
 
 **Business Impact**
 
-**Operational Efficiency:** Identified that Pediatrics and Dermatology face the highest demand → recommendation to expand staffing and optimize scheduling.
+Operational Efficiency: Identified Pediatrics and Dermatology as the highest-demand specialties — leading to a recommendation to expand staffing and optimize scheduling in both departments.
 
-**Revenue Growth:** Chemotherapy and MRI emerged as top revenue drivers → dashboards help management prioritize profitable services.
+Revenue Growth: Found Chemotherapy and MRI to be the top revenue-driving services — insight that lets management prioritize investment toward the most profitable service lines.
 
-**Risk Mitigation:** Detected 33% payment failures and 77% appointment drop‑offs → actionable insights to strengthen billing workflows and reduce no‑shows.
+Risk Mitigation: Detected 33% payment failures and a 77% combined appointment no-show/cancellation rate — both flagged for immediate billing and scheduling workflow review.
 
-**Decision Support:** Delivered interactive Tableau dashboards that allow executives to monitor KPIs in real time,enabling faster ,data diven decisions.
+Decision Support: Delivered interactive Tableau dashboards that let executives monitor KPIs in real time, enabling faster, data-driven decisions.
 
 **Project Objectives**
 
-Objective 1
-
 Analyze patient demand and physician workload across medical specialties.
 
-Objective 2
-
-Evaluate treatment utilization and identify major revenue-generating services.
-
-Objective 3
+Evaluate treatment utilization and identify the major revenue-generating services.
 
 Assess appointment performance and payment collection effectiveness.
 
@@ -44,71 +40,45 @@ What are the major contributors to hospital revenue, and how does payment status
 
 How are appointments and physician workloads distributed across the hospital network?
 
-**Dataset Information
+**Dataset**
 
-Source**
+Source: Hospital Management Dataset (Kaggle) — (add the exact dataset link here)
 
+**Tables and fields:**
 
-Hospital Management Dataset (Kaggle)
+Patients — Patient ID, Gender, Date of Birth, Registration Date, Insurance Information
+
+Doctors — Doctor ID, Specialization, Years of Experience, Hospital Branch
+
+Appointments — Appointment ID, Patient ID, Doctor ID, Appointment Date, Appointment Status
+
+Treatments — Treatment ID, Treatment Type, Treatment Cost, Treatment Date
+
+Billing — Bill ID, Amount, Payment Method, Payment Status
 
 **Tools Used**
-- **Excel** — data quality checks
-- **SQL** — data cleaning and analysis
-- **Tableau** — dashboard development
 
+Excel — data quality checks
 
-**Patients**
+SQL — data cleaning and analysis
 
-Patient ID,
-Gender,
-Date of Birth,
-Registration Date,
-Insurance Information
-
-**Doctors**
-
-Doctor ID,
-Specialization,
-Years of Experience,
-Hospital Branch
-
-**Appointments**
-
-Appointment ID,
-Patient ID,
-Doctor ID,
-Appointment Date,
-Appointment Status,
-
-**Treatments**
-
-Treatment ID,
-Treatment Type,
-Treatment Cost,
-Treatment Date,
-
-**Billing**
-
-Bill ID,
-Amount,
-Payment Method,
-Payment Status
+Tableau — dashboard development
 
 **Data Preparation**
 
-Data Quality Checks
+Before analysis, I ran the following data quality checks:
 
 Checked for missing values
 
 Verified data types
 
-Checked duplicate records
+Checked for duplicate records
 
 Validated relationships between tables
 
 **Data Modeling**
 
-Created relationships between:
+I built relationships across the dataset to support cross-table analysis:
 
 Patients → Appointments
 
@@ -120,19 +90,9 @@ Treatments → Billing
 
 **SQL Analysis**
 
-Key SQL Techniques
+Key techniques used: JOIN, CASE WHEN, aggregate functions, GROUP BY, percentage calculations
 
-JOIN
-
-CASE WHEN
-
-Aggregate Functions
-
-GROUP BY
-
-Percentage Calculations
-
-**KPIs Calculated**
+KPIs calculated:
 
 Total Appointments
 
@@ -148,224 +108,98 @@ Treatment Utilization Rate
 
 **Dashboard Overview**
 
-KPI Cards
+KPI Cards: Total Patients, Total Doctors, Total Appointments, Total Revenue, Revenue Collection Rate, Appointment Completion Rate
 
-Total Patients
-
-Total Doctors
-
-Total Appointments
-
-Total Revenue
-
-Revenue Collection Rate
-
-Appointment Completion Rate
-
-**Visualizations**
-
-Appointments by Specialization
-
-Revenue by Specialization
-
-Revenue by Treatment Type
-
-Doctor Workload Analysis
-
-Revenue by Payment Status
-
-Appointment Status Distribution
-
-Appointments by Hospital Branch
+Visualizations: Appointments by Specialization, Revenue by Specialization, Revenue by Treatment Type, Doctor Workload Analysis, Revenue by Payment Status, Appointment Status Distribution, Appointments by Hospital Branch
 
 **Business Value**
 
-The dashboard helps hospital management, operations teams, human resources, and finance departments identify high-demand specialties, monitor physician workload, improve appointment management, optimize resource allocation, and strengthen revenue collection performance through data-driven decision-making.
+This dashboard helps hospital management, operations, HR, and finance identify high-demand specialties, monitor physician workload, improve appointment management, optimize resource allocation, and strengthen revenue collection — all through one data-driven view.
 
-**Key Insight 1:**
+**Findings**
 
-Pediatrics Has the Highest Patient Demand
+Pediatrics recorded the highest appointment volume of any specialty (98 appointments).
 
-Evidence
+Dermatology and Pediatrics carry the highest physician workload, with several individual physicians recording the highest appointment volumes in the hospital.
 
-Pediatrics recorded 98 appointments, the highest among all specialties.
+Chemotherapy contributed 11.6% of total revenue and MRI contributed 10.5% — together the two highest revenue-generating treatment types — while routine investigations (X-rays, physiotherapy, ECG) contributed lower shares.
 
-**Possible Causes**
+Advanced procedures like MRI and Chemotherapy carry substantially higher average cost per case than routine services like X-ray, physiotherapy, and ECG.
 
-High demand for child healthcare services.
-Frequent follow-up visits and routine checkups.
-Broader patient population compared to specialized departments.
+Appointment completion rate was low: 23% completed, 26% no-show, 25.5% cancelled.
 
-**Recommendation**
+Revenue collection performance was weak: 32% paid, 34% pending, 33% failed.
 
-Strengthen the Pediatrics Department by increasing staffing capacity through recruitment of pediatricians, pediatric nurses, medical doctors, and clinical support staff. Optimize task allocation by allowing nurses to manage routine services such as immunization and vaccination, while medical doctors handle uncomplicated pediatric cases and pediatricians focus on complex conditions. This multidisciplinary approach can improve service delivery, reduce workload, and minimize patient waiting times.
+Central branch received the highest volume of appointments and hosts most of the top-performing doctors, while Eastside and Westside branches recorded noticeably fewer appointments.
 
-**Key Insight 2:** 
+**Insights**
 
-Dermatology and Pediatrics Carry the Highest Physician Workload
+Patient demand and physician workload are concentrated in a small number of specialties and physicians, which creates both a service bottleneck and a staffing risk if any of those physicians become unavailable.
 
-Evidence
+High-cost, high-revenue services (Chemotherapy, MRI) are driven by service complexity, equipment and consumable costs, treatment duration/intensity, and case severity mix — not simply higher demand.
 
-Several physicians from these specialties recorded the highest appointment volumes.
+Nearly half of all appointments end in a no-show or cancellation rather than completion, pointing to a patient-flow and engagement problem, not just a capacity problem.
 
-**Possible Causes**
+Revenue collection is roughly split three ways between paid, pending, and failed — meaning close to two-thirds of billed revenue is not reliably collected on the first attempt, which is a significant cash-flow risk.
 
-High patient demand.
-
-Frequent follow-up consultations.
-
-Workload concentration among a small group of physicians.
-
-**Recommendation**
-
-Increase specialist staffing capacity by recruiting additional dermatologists and pediatricians to better balance patient demand with physician availability. This will help reduce patient waiting times, minimize postponed appointments, and prevent excessive physician workload. In addition, optimize workforce allocation by assigning routine services such as immunization and vaccination follow-up to nurses, while medical doctors manage uncomplicated pediatric cases and pediatricians focus on complex conditions. This multidisciplinary approach will improve efficiency, enhance patient care delivery, and reduce pressure on specialist services.
-
-**Key Insight 3:**
-
-Chemotherapy and MRI Generate the Highest Treatment Revenue
-
-Evidence
-
-Chemotherapy contributed 11.6% of revenue.
-
-MRI contributed 10.5% of revenue while x rays, physiotherapy  and electrocardiogram which are routine investigations produce lower percentage revenue. 
-
-**Possible Causes**
-
-Higher cost per treatment.
-
-**Recommendation**
-
-Expand hospital specialist capacity by recruiting additional cardiologists and orthopedic physicians to improve access to specialized care. Increasing specialist availability will support higher patient attendance for cardiology and orthopedic consultations, physiotherapy services, diagnostic imaging, electrocardiograms (ECG), and other related investigations.
-
-Develop a dedicated budget for expanding cardiology and orthopedic services, including department infrastructure development and investment in essential diagnostic equipment such as ECG machines, X-ray systems, and echocardiography (ECHO) machines. These improvements will enhance diagnostic capacity, reduce service delays, and improve the quality and efficiency of patient care.
- 
-**Key Insight 4:**
-
-Appointment Completion Rate Is Low
-
-Evidence
-
-Completed appointments: 23%
-
-No-show: 26%
-
-Cancelled: 25.5%
-
-**Possible Causes**
-
-High working load by physicians.
-
-Long waiting hours.
-
-Patient engagement issues.
-
-**Recommendation**
-
-Increase clinical staffing capacity, particularly in departments experiencing high patient volumes, to improve patient flow, reduce workload pressure, and maintain quality of care.
-
-Establish a structured volunteer program that allows qualified healthcare professionals to support hospital services where staffing gaps exist. This approach can provide additional workforce support while ensuring that all volunteers meet required professional qualifications and work under appropriate supervision.
-
-**Key Insight 5:**
-
-Revenue Collection Performance Is Weak
-
-Evidence
-
-Paid: 32%
-
-Pending: 34%
-
-Failed: 33%
-
-**Possible Causes**
-
-Payment processing delays.
-
-Billing workflow inefficiencies.
-
-Claim management challenges.
-
-**Recommendation**
-
-Investigate the underlying causes of pending and failed payments by reviewing billing processes, documentation accuracy, and payment workflows. Strengthen billing follow-up procedures through timely claim monitoring, improved communication with payers, and proactive resolution of payment delays to enhance revenue cycle efficiency.
-
-**Key Insight**
-
-High‑cost treatments drive average cost — advanced procedures such as MRI and Chemotherapy have substantially higher average costs than routine services like X‑ray, Physiotherapy, and ECG.
-
-**Possible Causes**
-
-Intrinsic service complexity — MRI and Chemotherapy require specialized equipment, consumables, and highly trained staff, driving higher per‑case costs.
-
-Treatment duration and intensity — complex therapies often involve multiple sessions, longer facility use, or inpatient stays, increasing total cost per episode.
-
-Case severity mix — higher average costs may reflect a concentration of severe or complicated cases within certain treatment types.
-
-Billing granularity differences — some high‑cost records may represent bundled episodes (multiple procedures billed together) while others are single‑procedure charges.
-
-Operational inefficiencies or utilization gaps — underused expensive equipment or suboptimal scheduling can raise per‑case costs for advanced diagnostics and therapies.
+Appointment volume is concentrated at the Central branch, which suggests either a referral pattern favoring Central, more available resources there, or under-marketed capacity at Eastside and Westside — any of which represents an under-utilized asset if corrected.
 
 **Recommendations**
 
-Optimize MRI and chemotherapy service delivery through improved scheduling strategies, including block scheduling, extended operating hours, and dedicated clinics, to increase equipment utilization and reduce cost per case. Introduce bundled pricing or standardized care pathways for repeat treatments, such as chemotherapy cycles, to improve revenue predictability and simplify billing processes.
+**Workforce & Staffing**
 
-Implement review controls for high-cost cases to ensure accurate billing, appropriate clinical justification, and effective cost management. Allocate specialized staff and equipment based on projected service demand, while promoting cross-training to reduce operational bottlenecks. Establish dedicated follow-up and nurse-led clinics for routine care to improve patient flow and allow specialists to focus on complex cases.
+Increase staffing capacity in Pediatrics and Dermatology by recruiting additional pediatricians, dermatologists, nurses, and clinical support staff.
 
+Rebalance task allocation across skill levels: let nurses handle routine services like immunizations and vaccinations, medical doctors manage uncomplicated cases, and specialists focus on complex conditions — reducing bottlenecks at the top of the workload.
 
-**Key insights**
+**Scheduling & Patient Flow**
 
-Central branch is the busiest. It receives the highest count of appointments and hosts most top-performing doctors.
+Investigate the drivers of the 51.5% combined no-show/cancellation rate (working load, wait times, patient engagement) and pilot targeted fixes such as appointment reminders or flexible rebooking.
 
-Uneven load across branches. Eastside and Westside have noticeably fewer appointments; this suggests under‑utilized capacity or patient preference for Central.
+Introduce block scheduling, extended hours, or dedicated clinics for high-cost, high-demand services (Chemotherapy, MRI) to raise equipment utilization and reduce cost per case.
 
-Concentration risk. A small number of branches (primarily Central) account for a large share of appointments, increasing vulnerability to local disruptions.
+Establish nurse-led follow-up clinics for routine, repeat care so specialists can stay focused on complex cases.
 
-Potential access or referral patterns. Patients may be routed or self‑selecting Central for certain services, creating branch‑level specialization.
+**Revenue & Billing**
 
-**Possible causes**
+Investigate the root causes of the 34% pending and 33% failed payment rates — documentation accuracy, billing workflow gaps, and payer communication are the likely starting points.
 
-Service mix and specialization: Central may host advanced diagnostics or specialty clinics that attract more referrals.
+Strengthen billing follow-up procedures with timely claim monitoring and proactive resolution of payment delays.
 
-Resource and capacity differences: Central might have more doctors, equipment, or appointment slots, making it the default choice.
+Introduce bundled pricing or standardized care pathways for repeat treatment cycles (e.g., chemotherapy) to improve revenue predictability and simplify billing.
 
-Referral networks and patient preference: Primary care or referring physicians may preferentially send patients to Central.
+Add review controls on high-cost cases to ensure accurate billing and appropriate clinical justification.
 
-Operational constraints at smaller branches: Limited hours, fewer specialists, or less marketing can reduce patient flow to Eastside/Westside.
+**Resource Allocation & Branch Strategy**
 
-**Recommendations**
+Redistribute select specialty clinics and appointment slots to Eastside and Westside branches based on demonstrated demand, rather than leaving capacity concentrated at Central.
 
-Improve service capacity and patient access by redistributing selected specialty clinics and additional appointment slots to Eastside and Westside branches based on demand patterns. Expand decentralized healthcare services by providing suitable follow-up visits, routine diagnostics, and nurse-led clinics at smaller branches where clinically appropriate.
+Expand decentralized services — routine diagnostics, follow-up visits, nurse-led clinics — at smaller branches where clinically appropriate.
 
-Strengthen referral management by directing patients to facilities with available capacity while considering patient convenience. Optimize workforce distribution by rotating experienced clinicians across branches and using telemedicine to connect specialists from Central facilities with patients at smaller branches, reducing travel burden and congestion at high-demand locations.
+Use telemedicine to connect Central-based specialists with patients at smaller branches, reducing travel burden without requiring a full specialist presence at every location.
 
-**Strategic Recommendation**
+Track KPIs by department (HR: staffing and workload balance; Operations: scheduling and patient flow; Finance: collection rate and payment delays; Management: overall resource allocation) so each team owns the metrics relevant to it.
 
-**Human Resources**
-Assess staffing requirements in high-demand specialties, particularly Pediatrics and Dermatology, and monitor physician workload distribution to ensure balanced staffing and efficient service delivery.
+**Limitations**
 
-**Operations**
-Optimize appointment scheduling processes, reduce no-show and cancellation rates, and continuously monitor service capacity in high-demand departments to improve patient flow and reduce waiting times.
+Revenue and appointment figures in this analysis are reported as percentages; the underlying totals (total revenue, total patients, total appointments) were not included in this write-up and should be added for full transparency.
 
-**Finance**
-Strengthen payment collection processes by monitoring pending and failed payments, identifying causes of payment delays, and improving revenue cycle efficiency.
+The dataset reflects a single snapshot rather than a time series, so seasonal patterns in demand or payment failure can't be validated here.
 
-**Hospital Management**
-Prioritize resource allocation toward high-demand and high-revenue services while using key performance indicators (KPIs) to monitor operational efficiency, financial performance, and overall service quality.
+The recommendation for Chemotherapy and MRI was scoped to the services and departments directly tied to those findings; if cardiology or orthopedic-specific evidence exists in the underlying data, it should be added back in with its own supporting numbers.
+
+Root causes listed under each finding (e.g., billing delays, patient engagement issues) are informed hypotheses based on the pattern in the data, not confirmed through direct investigation — they're a starting point for further review, not a diagnosis.
 
 **Conclusion**
 
-The analysis revealed that Pediatrics and Dermatology are key demand and revenue-generating specialties within the hospital. While high-value services such as Chemotherapy and MRI contribute significantly to revenue, appointment completion and payment collection performance present opportunities for operational improvement. These findings can support data-driven decision-making in workforce planning, resource allocation, and financial management.
+This analysis showed that Pediatrics and Dermatology are the hospital's key demand and workload drivers, while Chemotherapy and MRI are its top revenue-generating services. At the same time, appointment completion and payment collection performance point to clear operational gaps — nearly half of appointments don't complete, and roughly two-thirds of billed revenue isn't collected cleanly on the first pass. 
 
-Author
+Together, these findings support more targeted workforce planning, resource allocation, and revenue-cycle improvement across the hospital network.
 
-Mwanahamisi Juma
+Contact
 
-Health Data Analyst Portfolio Project
+Mwanahamisi Juma 
 
-LinkedIn: 
-
-GitHub: 
-
+Health Data Analyst
 
 
